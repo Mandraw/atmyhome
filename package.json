@@ -1,0 +1,19 @@
+{
+  "name": "atmyhome",
+  "version": "0.1.0",
+  "description": "site dynamique pour atmyhome",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mandraw/atmyhome.git"
+  },
+  "author": "Mandraw",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Mandraw/atmyhome/issues"
+  },
+  "homepage": "https://github.com/Mandraw/atmyhome#readme"
+}
