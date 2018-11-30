@@ -1,19 +1,17 @@
 {
   "name": "atmyhome",
-  "version": "0.1.0",
-  "description": "site dynamique pour atmyhome",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mandraw/atmyhome.git"
-  },
-  "author": "Mandraw",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/Mandraw/atmyhome/issues"
-  },
-  "homepage": "https://github.com/Mandraw/atmyhome#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "node-sass-middleware": "0.11.0",
+    "pug": "2.0.0-beta11"
+  }
 }

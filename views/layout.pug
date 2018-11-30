@@ -1,0 +1,46 @@
+doctype html
+html
+  head
+    title= title
+    script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js", integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl", crossorigin="anonymous")
+    link(href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/darkly/bootstrap.min.css", rel="stylesheet", integrity="sha384-w+yWASP3zYNxxvwoQBD5fUSc1tctKq4KUiZzxgkBSJACiUp+IbweVKvsEhMI+gz7", crossorigin="anonymous")
+    link(href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  header
+    nav.navbar.fixed-top.navbar-light.bg-light
+      a.navbar-brand(href='#') At My Home
+  body
+    .container
+      block content
+  footer.page-footer.font-small.blue.pt-4
+  .container-fluid.text-center.text-md-left
+    .row
+      .col-md-6.mt-md-0.mt-3
+        h5.text-uppercase Footer Content
+        p Here you can use rows and columns here to organize your footer content.
+      hr.clearfix.w-100.d-md-none.pb-3
+      .col-md-3.mb-md-0.mb-3
+        h5.text-uppercase Links
+        ul.list-unstyled
+          li
+            a(href='#!') Link 1
+          li
+            a(href='#!') Link 2
+          li
+            a(href='#!') Link 3
+          li
+            a(href='#!') Link 4
+      .col-md-3.mb-md-0.mb-3
+        h5.text-uppercase Links
+        ul.list-unstyled
+          li
+            a(href='#!') Link 1
+          li
+            a(href='#!') Link 2
+          li
+            a(href='#!') Link 3
+          li
+            a(href='#!') Link 4
+  .footer-copyright.text-center.py-3
+    | &copy; 2018 Copyright:
+    a(href='https://mandrake.tech')  Mandrake.tech
