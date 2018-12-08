@@ -7,6 +7,13 @@ var sassMiddleware = require('node-sass-middleware');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var immoRouter = require('./routes/immo');
+var rechercheRouter = require('./routes/recherche');
+var produitRouter = require('./routes/produit');
+var inscriptionRouter = require('./routes/inscription');
+var utilisateurRouter = require('./routes/utilisateur');
+var preferencesRouter = require('./routes/preferences');
+var produit2Router = require('./routes/produit2');
 
 var app = express();
 
@@ -28,6 +35,14 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/immo', immoRouter);
+app.use('/recherche', rechercheRouter);
+app.use('/produit', produitRouter);
+app.use('/inscription', inscriptionRouter);
+app.use('/utilisateur', utilisateurRouter);
+app.use('/utilisateur/preferences', preferencesRouter);
+app.use('/utilisateur/produit', produit2Router);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

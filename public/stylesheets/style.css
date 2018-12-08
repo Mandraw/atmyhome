@@ -1,10 +1,18 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
 .bg-light {
-  background-color: #028102 !important;
-}
+  background-color: #026502 !important; }
+
+.btn-primary {
+  background-color: #026502 !important; }
+
+.firstSlide {
+  background-image: url("../images/firstSlide.png"); }
+
+.introJumbo {
+  margin-top: 10vw;
+  margin-left: auto;
+  margin-right: auto; }
+
+.font_override {
+  font: initial !important; }
 
 /*# sourceMappingURL=style.css.map */
